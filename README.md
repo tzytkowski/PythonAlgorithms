@@ -1,2 +1,2 @@
-# pythonPractice
-Python college course exercises
+# PythonIdeas
+Python exercises
