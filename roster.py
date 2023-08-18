@@ -63,10 +63,15 @@ class Learning(School):
     def __init__(self, type, courses, city):
         School.__init__(self, type, courses)
         self.city = city
+        self.type = type
+        self.courses = courses
        
     def getCity(self):
         return self.city
         """Idk"""
+
+    def getType(self):
+        return self.type
 
 Macomb = Learning("community college", "IT", 'warren')
 Oakland = Learning('university', "teaching", 'auburn hills')
