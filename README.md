@@ -1,2 +1,2 @@
 # PythonIdeas
-Copy branch into desired directory and just double-click to run
+Copy branch into desired directory and double-click to run
