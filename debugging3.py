@@ -10,11 +10,11 @@ def Rates():
     user_choice = ''
     rate = str()
     user_choice = PickInstitution()
-        if user_choice == 'bank':
-            rate = 0.10
-        else user_choice == 'credit union':
-            rate = 0.05
-        return user_choice
+    if user_choice == 'bank':
+        rate = 0.10
+    else user_choice == 'credit union':
+        rate = 0.05
+    return user_choice
 
 def main():
     final_rate = Rates()
