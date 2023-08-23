@@ -1,5 +1,4 @@
 # Rock Paper Scissors
-
 import random
 import sys
 def RPSGame():
@@ -8,10 +7,8 @@ def RPSGame():
     wins = 0
     losses = 0
     tie = 0
-
     # print("Guess (r)ock, (p)aper, (s)cissors or (q)uit")
     choices = ['rock', 'paper', 'scissors', 'quit']
-       
     while wins < 5:
         guess = input("Guess (r)ock, (p)aper, (s)cissors or (q)uit: ")
         guess = guess.lower()
@@ -43,17 +40,10 @@ def RPSGame():
             elif guess == 'p' and cpu == 'paper':
                 print('Its a tie')
                 tie = tie + 1
-       
-
-
-    
-
+                
         print("Wins:\t", wins, "\nLosses:\t", losses, "\nTies:\t", tie)
 
-
-
 def main():
-    
     print(RPSGame())
 
 main()
